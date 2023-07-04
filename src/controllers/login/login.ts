@@ -69,7 +69,7 @@ const usersController = async (req: Request, res: Response) => {
     const responseUser = await axios.get(
       `http://localhost:${process.env.PORT}/business/users?email=${
         req.query.email ?? ""
-      }&pageSize=${req.query.pageSize ?? ""}`,
+      }&limit=${req.query.limit ?? ""}&pageSize=${req.query.pageSize ?? ""}`,
       {
         headers: {
           Authorization: req.headers.authorization,
