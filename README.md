@@ -28,16 +28,25 @@ npm run start
 npm run test
 ```
 
+## .env variables
+
+Don't forget to set the environment variables:
+
+- PORT=3000 `(or whatever port you want) `
+- MONGO_DB_URI=mongodb://localhost:27017/api-conexa `(or whatever databasename you want)`
+- JWT_SECRET=api-conexa `(or whatever secret key you want)`
+
 ## Author
 
 👤 **Tomas Alvarez**
 
-* Github: [@tomasalv](https://github.com/tomasalv)
-* LinkedIn: [@www.linkedin.com\/in\/tomasalv](https://linkedin.com/in/www.linkedin.com\/in\/tomasalv)
+- Github: [@tomasalv](https://github.com/tomasalv)
+- LinkedIn: [@www.linkedin.com\/in\/tomasalv](https://linkedin.com/in/www.linkedin.com/in/tomasalv)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
